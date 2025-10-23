@@ -13,7 +13,7 @@ Doing the static analysis of the dependencies was the most challenging. The depe
 I increased the security by ensuring the web interface is using SSL encryption to transmit data. I also created a hashing function to generate a checksum to verify data that is sent. In the future I will use the dependency check tool for static analysis as I found it very useful. I will also continue to manually review code to check for vulnerabilities. This will guide the steps I take to secure software.
 
 ## How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
-After refactoring the code I reran the static analysis looking for any new vulnerabilities. I also tested the code to ensure the web interface was using SSL and that the checksum ahshing worked correctly.
+After refactoring the code I reran the static analysis looking for any new vulnerabilities. I also tested the code to ensure the web interface was using SSL and that the checksum hashing worked correctly.
 
 ## What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
 The dependency check tool was very helpful for static testing. This is a tool I will continue to use in the future when doing security analysis.
